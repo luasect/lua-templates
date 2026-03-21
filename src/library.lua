@@ -1,3 +1,7 @@
+-- Copyright (c) 2026 LJSC. All rights reserved.
+-- MIT License
+-- See LICENSE for full copyright notice.
+
 local Class = require("class")
 
 local Library = {}
