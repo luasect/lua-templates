@@ -24,7 +24,7 @@ InheritingClass.constant = 2
 ---@type fun(data: string?): InheritingClass
 function InheritingClass.new(data)
     if data and type(data) ~= "string" then
-        error("bad argument #1 to 'new' (string expected, got " .. data .. ")", 2)
+        error("bad argument #1 to 'new' (string expected, got " .. type(data) .. ")", 2)
     end
 
     ---@class InheritingClass: Class
