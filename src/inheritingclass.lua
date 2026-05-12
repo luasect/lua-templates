@@ -14,7 +14,7 @@ InheritingClass.__index = InheritingClass
 -- InheritingClass Constants
 
 ---@type "InheritingClass"
-InheritingClass.type = "InheritingClass"
+InheritingClass.class = "InheritingClass"
 
 ---@type 2
 InheritingClass.constant = 2

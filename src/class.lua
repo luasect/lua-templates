@@ -10,7 +10,7 @@ Class.__index = Class
 -- Class Constants
 
 ---@type "Class"
-Class.type = "Class"
+Class.class = "Class"
 
 ---@type 1
 Class.constant = 1
