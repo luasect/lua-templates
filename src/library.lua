@@ -24,10 +24,10 @@ function Library.setClassData(obj, data)
         error("bad argument #2 to 'setClassData' (string expected, got " .. type(data) .. ")", 2)
     end
 
-    if obj.type == "Class" then
+    if obj.class == "Class" then
         obj.data = data
     else
-        error("bad argument #1 to 'setClassData' (Class expected, got " .. obj.type .. ")", 2)
+        error("bad argument #1 to 'setClassData' (Class expected, got " .. obj.class .. ")", 2)
     end
 end
 
